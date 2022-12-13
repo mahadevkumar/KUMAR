@@ -1,0 +1,276 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.navbar-brand {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+}
+
+.ww {
+  width: 95px;
+}
+
+.nav-item {
+  padding: 6px 6px;
+}
+.nav-link {
+  font-size: 14px;
+}
+
+.dropdown-menu {
+  border-radius: 0px;
+  width: 20%;
+  height: 87vh;
+}
+
+.v {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 8px !important;
+  margin: 0px !important;
+}
+.v:hover {
+  background-color: white;
+  color: blueviolet;
+  box-shadow: none;
+}
+
+.e {
+  width: 30%;
+}
+.q {
+  width: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+}
+
+.box {
+  width: 530px;
+  height: 48px;
+  background-color: #f7f9fa;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 100px;
+}
+
+.box > input {
+  flex: 1;
+  height: 40px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  /* padding-left: 5px; */
+  background-color: #f7f9fa;
+  padding: 20px;
+}
+
+.div-3 {
+  border: 1px solid black;
+  width: 85px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#login {
+  font-weight: bold;
+  color: black;
+}
+
+#login:hover {
+  background-color: rgb(245, 245, 245);
+  color: black;
+  width: 85px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-weight: bold;
+}
+
+a {
+  color: black !important;
+  padding: 8px !important;
+}
+
+a:hover {
+  color: blueviolet !important;
+}
+
+.div-4 {
+  border: 1px solid black;
+  background-color: black;
+  width: 85px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#sign-up {
+  font-weight: bold;
+  color: rgb(255, 255, 255) !important;
+}
+
+#div-5 {
+  border: 1px solid black;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.main {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  /* margin-bottom: 4.8rem; */
+  color: #1c1d1f;
+  min-width: 100%;
+}
+
+.img-6 {
+  position: sticky;
+  width: 100%;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 15px;
+}
+p {
+  font-family: "Play", sans-serif;
+}
+
+.d {
+  position: relative;
+}
+.d-1 {
+  background-color: white;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+  padding: 10px;
+  position: absolute;
+  top: 80px;
+  left: 50px;
+  font-size: 18px;
+  width: auto !important;
+}
+.me-auto {
+  display: flex;
+  flex-wrap: nowrap !important;
+}
+
+@media only screen and (max-width: 1060px) {
+  .d-1 {
+    width: 50%;
+    font-size: medium;
+  }
+  .ww {
+    width: 100px;
+  }
+  .box {
+    width: 300px;
+  }
+  .nav-link {
+    font-size: small;
+  }
+  h1 {
+    font-size: x-large !important;
+  }
+  p {
+    font-size: medium;
+  }
+}
+@media only screen and (max-width: 1040px) {
+  .d-1 {
+    width: 50%;
+    font-size: medium;
+  }
+  .ww {
+    width: 70px;
+  }
+  .box {
+    width: 290px;
+  }
+  .nav-link {
+    font-size: small;
+  }
+  h1 {
+    font-size: x-large !important;
+  }
+  p {
+    font-size: medium;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .d-1 {
+    display: flex;
+    visibility: hidden;
+  }
+}
+
+.s-m {
+  background-color: #f7f9fa;
+  width: 100%;
+  height: 80vh;
+  padding: 50px 30px;
+}
+.s-main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.s-1 {
+  display: flex;
+  flex-direction: column;
+}
+h3 {
+  font-family: "Merriweather", serif;
+  font-size: 20px !important;
+  padding: 5px 0px;
+}
+.s-h3 {
+  font-size: 25px !important;
+}
+.s-11 {
+  padding: 5px 0px;
+}
+.s-a {
+  color: #5624d0 !important;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Merriweather", serif;
+}
+.s-a:hover {
+  color: #60469e !important;
+}
+.s-1 p {
+  color: grey;
+}
+.button_1{
+    position;
+}
+
+@media only screen and (max-width: 900px) {
+  .s-1 {
+    width: 100%;
+  }
+}
